@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,4 +100,30 @@ li {
 li:hover {
   transform: translateX(8px) scale(1.02);
   background: rgba(0,255,255,0.1);
+}
+
+.btn{
+
+   padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(45deg, #00eaff, #0072ff);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #00eaff;
+}
+
+.btn1{
+  margin-left: 130px;
+    padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(45deg, #00eaff, #0072ff);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #00eaff;
 }
