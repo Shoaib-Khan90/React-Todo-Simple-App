@@ -127,3 +127,46 @@ li:hover {
   transition: 0.3s;
   box-shadow: 0 0 10px #00eaff;
 }
+
+@media (max-width: 992px) {
+
+  .todo-container {
+    width: 80%;
+  }
+
+  li {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .todo-container {
+    margin-top: 80px;
+    padding: 15px;
+  }
+
+  .todo-container h3 {
+    font-size: 20px;
+  }
+
+  .input-box {
+    gap: 8px;
+  }
+
+  .input-box button {
+    font-size: 14px;
+  }
+
+  li {
+    padding: 10px;
+    font-size: 14px;
+
+  }
+
+  .btn, .btn1 {
+    width: 20%;
+    font-size: 14px;
+  }
+}
